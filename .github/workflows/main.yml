@@ -9,6 +9,6 @@ jobs:
   OlaMundo:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
       - name: Diga
         run: echo Hello-World!
