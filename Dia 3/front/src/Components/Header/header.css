@@ -1,0 +1,25 @@
+.appHeader{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 1s;
+    height: 10vh;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    background: var(--secondary);
+    
+}
+
+.leftHeader{
+    display: flex;
+    width: 50vw;
+    min-width: 800px;
+}
+
+.rightHeader{
+    display: flex;
+    width: 15vw;
+    min-width: 250px;
+    justify-content: space-around;
+}

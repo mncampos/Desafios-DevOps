@@ -1,0 +1,7 @@
+export {userLogin} from './AUTH/userLogin'
+export {userLogout} from './AUTH/userLogout'
+export {userRegister} from './AUTH/userRegister'
+export {listarAmizadesPendentes} from './GET/listarAmizadesPendentes'
+export {answerFriendship} from './PUT/answerFriendship'
+export {createPost} from './POST/createPost'
+export {postReaction} from './PUT/postReaction'

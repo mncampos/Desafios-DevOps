@@ -1,0 +1,34 @@
+.userListSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userListContainer{
+    margin-top: 50px;
+    width: 80%;
+    height: 85vh;
+    background: var(--secondary );
+    border: 1px  solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.searchBar{
+    width: 400px;
+    height: 60px;
+    font-family: Nunito;
+    font-size: 24px;
+    color: var(--light);
+    background-color: var(--secondary);
+    border: 1px solid var(--light);
+}
+
+.searchPageTitle{
+    font-size: 32px;
+    color: var(--purple);
+}

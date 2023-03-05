@@ -1,0 +1,47 @@
+.commentContainer{
+    width: 90%;
+    height: auto;
+    border: 1px solid var(--light);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userAvatarAndNick{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+    color: var(--purple);
+}
+
+.commentHeader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.authorNickname{
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.likeNumber{
+    margin-right: 20px;
+}
+
+.reactionButtons{
+    display: flex;
+    flex-direction: column;  
+    align-self: flex-end;
+}
+
+.commentContent{
+    overflow-wrap: anywhere;
+    margin: 20px;
+
+}

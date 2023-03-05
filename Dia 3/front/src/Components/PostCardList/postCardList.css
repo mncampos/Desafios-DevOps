@@ -1,0 +1,24 @@
+.postsListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paginationButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.pageNum{
+    color: var(--light);
+    text-align: center;
+}
+.postList{
+    margin: 50px;
+}

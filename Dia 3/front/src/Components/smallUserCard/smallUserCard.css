@@ -1,0 +1,21 @@
+.smallUserCardContainer{
+    display: flex;
+    background-color: var(--secondary);
+    position: relative;
+    height: 150px;
+    width: 30%;
+    min-width: 730px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--light);
+    transition: all 1s ease-in-out;
+    margin: 20px;
+}
+
+.userProfielLink{
+    text-decoration: none;
+    color: inherit;
+    font-family: Nunito;
+    font-size: 42px;
+    color: var(--primary);
+}

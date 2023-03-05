@@ -1,0 +1,32 @@
+services:
+  frontend:
+    image: anicrescerfront:react
+    container_name: anicrescerfront
+    ports:
+      - "4000:4000"
+
+  backend:
+    image: anicrescer:spring
+    container_name: anicrescer
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://anicrescerbanco:5432/anicrescer
+      SPRING_DATASOURCE_USERNAME: anicrescer
+      SPRING_DATASOURCE_PASSWORD: anicresce
+  db:
+    image: anicrescerbanco:sql
+    container_name: anicrescerbanco
+    environment:
+      POSTGRES_PASSWORD: anicrescer
+      POSTGRES_USER: anicrescer
+      POSTGRES_DB: anicrescer
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+networks:
+  default:
+    name: anicrescer-network
+
+volumes:
+  db-data:
